@@ -1,0 +1,214 @@
+[
+    {
+        "id":100,
+        "nombre":"CELULAR MOTOROLA",
+        "img":"celular1.jpg",
+        "precio":449999,
+        "descripcion":"Moto G52 256 GB azul 6 GB RAM",
+        "stock":5,
+        "categoria":"celulares"
+    },
+    {
+        "id":101,
+        "nombre":"IPHONE 14",
+        "img":"celular2.jpg",
+        "precio":1241000,
+        "descripcion":"Apple iPhone 14 128gb Midnight Nuevo Sellado Garantia",
+        "stock":2,
+        "categoria":"celulares"
+    },
+    {
+        "id":103,
+        "nombre":"REDMI NOTE 11",
+        "img":"celular4.jpg",
+        "precio":339999,
+        "descripcion":"Xiaomi Redmi Note 11 4gb Ram 128gb Rom Color Gris grafito",
+        "stock":6,
+        "categoria":"celulares"
+    },
+    {
+        "id":104,
+        "nombre":"SAMSUNG A32",
+        "img":"celular5.jpg",
+        "precio":599999,
+        "descripcion":"Samsung Galaxy A54 5G 5G 128 GB awesome graphite 8 GB RAM",
+        "stock": 5,
+        "categoria":"celulares"
+    },
+    {
+        "id":105,
+        "nombre":"SAMSUNG A54",
+        "img":"celular6.jpg",
+        "precio":1139999,
+        "descripcion":"Samsung Galaxy A54 5G 5G 128 GB awesome graphite 8 GB RAM",
+        "stock":4,
+        "categoria":"celulares"
+    },
+    {
+        "id":200,
+        "nombre":"MONITOR 22'",
+        "descripcion":"Monitor Led Samsung 22'' Con Diseño Sin Bordes - Lf22t35 Color Negro",
+        "precio": 131595 ,
+        "img":"monitor1.jpg",
+        "stock":10,
+        "categoria":"monitores"
+    },
+    {
+        "id":201,
+        "nombre":"MONITOR 32'",
+        "descripcion":"Monitor Led 4k 32 Samsung Ls32bm700ulczb Gamer M7b Color Negro",
+        "precio":789000 ,
+        "img":"monitor2.jpg",
+        "stock": 3,
+        "categoria":"monitores"
+    },
+    {
+        "id":202,
+        "nombre":"MONITOR GAMER",
+        "descripcion":"Monitor Gamer Aoc 24 Fhd G2490vx 144hz 1ms Amd Freesync Color Negro",
+        "precio":278000 ,
+        "img":"monitor3.jpg",
+        "stock": 3,
+        "categoria":"monitores"
+    },
+    {
+        "id":203,
+        "nombre":"MONITOR ASUS",
+        "descripcion":"Monitor Asus Vp228he, 21.5 , 1920x1080 Fhd, Hdmi / Vga / Color Negro",
+        "precio":149000 ,
+        "img":"monitor4.jpg",
+        "stock": 5,
+        "categoria":"monitores"
+    },
+    {
+        "id":204,
+        "nombre":"MONITOR PHILIPS",
+        "descripcion":"Monitor Philips 27 Full Hd 272v8la/55 Adaptive-sync Color Negro",
+        "precio": 190000,
+        "img":"monitor5.jpg",
+        "stock": 4,
+        "categoria":"monitores"
+    },
+    {
+        "id":205,
+        "nombre":"MONITOR DAEWO",
+        "descripcion":"Monitor Daewoo DW-MON19 led 19 negro 100V/240V",
+        "precio": 89700,
+        "img":"monitor6.jpg",
+        "stock": 8,
+        "categoria":"monitores"
+    },
+    {
+        "id": 1,
+        "nombre":"NOTEBOOK I3 HP",
+        "descripcion": "Notebook Hp 15-dy2061la Intel Core I3 1125g4 8gb 256gb Win10 Color Plateado",
+        "precio": 1067899,
+        "img": "notebook1.jpg",
+        "stock": 3,
+        "categoria":"notebook"
+    },
+    {
+        "id": 2,
+        "nombre":"NOTEBOOK I3 LENOVO",
+        "descripcion": "Notebook Lenovo V14-itl Intel Core I3 8gb Ram 256gb Ssd",
+        "precio": 575999,
+        "img": "notebook2.jpg",
+        "stock": 3,
+        "categoria":"notebook"
+    },
+    {
+        "id": 3,
+        "nombre":"NOTEBOOK I7 DELL",
+        "descripcion": "Notebook Dell Inspiron 16 5620 plata 16, Intel Core i7 1255U 16GB de RAM 512GB SSD, NVIDIA GeForce MX570 60 Hz 1920x1200px ",
+        "precio": 1391999 ,
+        "img": "notebook4.jpg",
+        "stock":5,
+        "categoria":"notebook"
+    },
+    {
+        "id":4 ,
+        "nombre":"NOTEBOOK R3 HP",
+        "descripcion": "Notebook 15,6 Fhd Hp 255 G9 Ryzen 3 5425u 8gb 256gb Ssd W11 Color Gris Ceniza",
+        "precio": 614399,
+        "img": "notebook3.jpg",
+        "stock": 5,
+        "categoria":"notebook"
+        
+    },
+    {
+        "id":5 ,
+        "nombre":"WEB-CAM",
+        "descripcion": "Camara Web Webcam Usb Pc Notebook Mic Plug Play Conferencia Color Negro",
+        "precio":14499,
+        "img": "webcam1.jpg",
+        "stock": 10,
+        "categoria":"notebook"
+        
+    },
+    {
+        "id":6 ,
+        "nombre":"TECLADO-MOUSE",
+        "descripcion": "Combo Mouse Y Teclado Mecánico Full Gamer Pro Red Kill",
+        "precio":64499,
+        "img": "teclado1.jpg",
+        "stock": 10,
+        "categoria":"notebook"
+       
+    },
+    {
+        "id":300,
+        "nombre":"SMART TV 32'",
+        "descripcion":"Smart TV RCA X55ANDTV LED Android TV 4K 55 pulgadas 100V/240V",
+        "precio": 699999 ,
+        "img":"televisor1.jpg",
+        "stock":3,
+        "categoria":"televisores"
+    },
+    {
+        "id":301,
+        "nombre":"HITACHI 32'",
+        "descripcion":"Smart TV Hitachi CDH-LE32SMART17 LED Android TV HD 32pulgadas 100V/240V",
+        "precio":272000 ,
+        "img":"televisor2.jpg",
+        "stock":3,
+        "categoria":"televisores"
+        
+    },
+    {
+        "id":302,
+        "nombre":"SMART TV KANJI",
+        "descripcion":"Smart TV Kanji KJ-MN32-30SMT LED HD 32pulgadas 220V",
+        "precio":319999 ,
+        "img":"televisor3.jpg",
+        "stock": 3,
+        "categoria":"televisores"
+    },
+    {
+        "id":303,
+        "nombre":"SMART TV 40'",
+        "descripcion":"Smart Tv Philco Pld40fs23ch Led Full Hd 40 pulgadas Android Tv",
+        "precio":314999 ,
+        "img":"televisor4.jpg",
+        "stock": 5,
+        "categoria":"televisores"
+    },
+    {
+        "id":304,
+        "nombre":"SMART TV 43'",
+        "descripcion":"Smart Tv Philips 43 Fhd Google Tv Control Por Voz",
+        "precio": 301995,
+        "img":"televisor5.jpg",
+        "stock": 4,
+        "categoria":"televisores"
+    },
+    {
+        "id":305,
+        "nombre":"SMART TV 40'",
+        "descripcion":"Smart TV RCA AND50P6UHD-F LED Google TV 4K 40pulgadas 100V/240V",
+        "precio": 379400,
+        "img":"televisor6.jpg",
+        "stock": 3,
+        "categoria":"televisores"
+    }
+
+]
