@@ -73,8 +73,9 @@ function obtenerProductos() {
         .then((datos) => {
             productos.push(...datos);
             cargarProductos(productos); // Cargar productos al obtenerlos
-            //cargarProductosPorCategorias();
+             cargarProductosPorCategorias();
 })
 //lo que necesito es poblar con los productos filtrados en celulares.html, monitores.html, etc
-
 }
+
+obtenerProductos()
