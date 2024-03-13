@@ -46,7 +46,6 @@ function agregarClickEnBotones() {
 
 // Cargar productos en el contenedor
 function cargarProductos(arrayProductos) {
-    console.log('probando')
     divProductos.innerHTML = '';
     if (arrayProductos.length > 0) {
         arrayProductos.forEach(producto => {
@@ -55,18 +54,27 @@ function cargarProductos(arrayProductos) {
     }
     agregarClickEnBotones();
 }
+ const  botonesCategorias = document.querySelectorAll('.botonCategoria')
 
-const obtenerProductos = () => {
+ function cargarProductosPorCategorias (){
+    botonesCategorias.forEach((boton)=>{
+        boton.addEventListener('click', (e)=>{
+            let categoria = e.target.id
+            let productosCategorias= productos.filter((producto)=>producto.categoria === categoria);
+            cargarProductos(productosCategorias)
+            })
+ })
+ 
+} 
+
+function obtenerProductos() {
     fetch(URL)
-    .then((response) => response.json())
-    .then((datos)=> productos.push(...datos))
-    .then(()=>cargarProductos(productos));
-};
-document.addEventListener("DOMContentLoaded", () => {
-    obtenerProductos();
-});
-
-
+        .then((response) => response.json())
+        .then((datos) => {
+            productos.push(...datos);
+            cargarProductos(productos); // Cargar productos al obtenerlos
+            //cargarProductosPorCategorias();
+})
 //lo que necesito es poblar con los productos filtrados en celulares.html, monitores.html, etc
 
-
+}
