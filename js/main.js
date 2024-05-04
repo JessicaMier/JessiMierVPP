@@ -1,4 +1,4 @@
-const tbody = document.querySelector('tbody');
+const tbody = document.querySelector('.tbody');
 const btnComprar = document.querySelector('button.btn.btn-dark#btnComprar');
 
 // Función para retornar el HTML de una fila de la tabla

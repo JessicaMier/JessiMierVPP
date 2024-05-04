@@ -33,8 +33,8 @@ function crearCard(producto) {
 }
 
 // Agregar evento click a los botones "Agregar"
-function agregarClickEnBotones() {
-    const btnAgregar = document.querySelectorAll("button.btn-agregar");
+function agregarClickEnBotones(selector) {
+    const btnAgregar = document.querySelectorAll(selector);
     if (btnAgregar !== null) {
         btnAgregar.forEach((boton) => {
             boton.addEventListener('click', (e) => {
@@ -52,7 +52,7 @@ function cargarProductos(arrayProductos) {
             divProductos.innerHTML += crearCard(producto);
         });
     }
-    agregarClickEnBotones();
+    agregarClickEnBotones("button.btn-agregar");
 }
  const  botonesCategorias = document.querySelectorAll('.botonCategoria')
 

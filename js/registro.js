@@ -60,6 +60,7 @@ window.addEventListener('load', () => {
         formControl.className = 'form-control ok'
     }
 
+    //expresiones regulares
     const validaEmail = (email) => {
         return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
     }

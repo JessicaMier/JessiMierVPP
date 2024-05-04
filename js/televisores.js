@@ -11,14 +11,14 @@ function crearCard(producto) {
                     <h5 class="card-title">${producto.nombre}</h5>
                     <p class="card-text fs-5 fw-bolder text-primary">Precio:$${producto.precio}</p>
                     <p class="card-text bodyCard">${producto.descripcion}</p>
-                    <button id=${producto.id} class=" btn btn-dark container btn-agregar">Agregar</button>
+                    <button id=${producto.id} class=" btn btn-dark container btn-agregar-televisores">Agregar</button>
                 </div>
             </div>`;
 }
 
 // Agregar evento click a los botones "Agregar"
-function agregarClickEnBotones() {
-    const btnAgregar = document.querySelectorAll("button.btn-agregar");
+function agregarClickEnBotones(selector) {
+    const btnAgregar = document.querySelectorAll(selector);
     if (btnAgregar !== null) {
         btnAgregar.forEach((boton) => {
             boton.addEventListener('click', (e) => {
@@ -47,7 +47,7 @@ function cargarProductos(arrayProductos) {
             divProductos.innerHTML += crearCard(producto);
         });
     }
-    agregarClickEnBotones();
+    agregarClickEnBotones("button.btn-agregar-televisores");
 }
 
 // Cargar productos de la categoría "Celulares" al cargar la página
